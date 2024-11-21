@@ -42,7 +42,7 @@ window.onload = function() {
         var email = document.getElementById("email").value;
         var comentario = document.getElementById("comentario").value;
 
-        if (nome === "" || email === "" || comentario === "") {
+        if (nome === "" || email === "" || comentario === "" || nota.value === "") {
             return;
         }
 

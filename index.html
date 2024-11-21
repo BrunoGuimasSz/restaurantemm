@@ -295,12 +295,22 @@
 					<div class="block">
 						<h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">Deixe seu
 							<span>FEEDBACK</span></h1>
-						<form method="get" id="myForm">
+						<form method="post" id="myForm">
 							<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 								<input type="text" class="form-control" placeholder="Insira seu nome completo" required="Preencha esse campo" id="nome">
 							</div>
 							<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
 								<input type="email" class="form-control" id="email" placeholder="Insira seu email" required="Preencha esse campo">
+							</div>
+							<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+								<select  class="form-control" id="nota" placeholder="Insira sua nota" required="Preencha esse campo">
+									<option value="">Selecione uma nota</option>
+									<option>★</option>
+									<option>★★</option>
+									<option>★★★</option>
+									<option>★★★★</option>
+									<option>★★★★★</option>
+								</select>
 							</div>
 							<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
 								<textarea class="form-control" rows="3" placeholder="Insira seu comentário" required="Preencha esse campo" id="comentario"></textarea>
@@ -333,7 +343,6 @@
 								<li>
 									<h4><i class="fa fa-envelope"></i>Email</h4>
 									<p>atchin@bubarim.com</p>
-
 								</li>
 							</ul>
 						</div>

@@ -574,6 +574,9 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #contact-us .block form {
   padding-bottom: 20px;
 }
+#contact-us select {
+  opacity: 70%;
+}
 #contact-us .block form input {
   border-radius: 0px;
   box-shadow: none;
